@@ -16,11 +16,21 @@
 
       Harvard - Massachusetts General Hospital, Boston, USA
 
+      .. list-table::
+          :widths: 30 70
+          :class: header-last
+
+          * - **Email:**
+            - alexandre.gramfort@inria.fr
+          * - **Research interests:**
+            - Brain functional imaging (MEG, EEG, fMRI),
+              Computational Neurosciences, Signal and Image Processing,
+              Computer Vision, Machine Learning
 
 .. _phd:
 
-PhD Thesis:
------------
+PhD Thesis
+----------
 
 .. list-table::
     :widths: 20 100
