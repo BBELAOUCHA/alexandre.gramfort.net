@@ -19,5 +19,5 @@
 .. _matti: http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=70
 .. _martinos: http://www.nmr.mgh.harvard.edu/martinos/
 .. _github: http://github.com/agramfort
-.. _hal: http://hal.inria.fr/index.php?action_todo=search&amp;submit=1&amp;s_type=simple&amp;f[0]=@*&amp;v[0]=gramfort
+.. _hal: http://hal.inria.fr/index.php?action_todo=search&submit=1&s_type=simple&f[0]=@*&v[0]=gramfort
 

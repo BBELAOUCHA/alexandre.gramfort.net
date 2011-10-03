@@ -50,9 +50,9 @@ My :ref:`phd` page
 .. include:: publications.rst
     :end-before: stop-recent-publications
 
-`All my publications`_
-
-.. _All my publications: publications_
+.. `All my publications`_
+.. 
+.. .. _All my publications: publications_
 
 Software
 --------
