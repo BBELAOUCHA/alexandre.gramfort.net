@@ -43,6 +43,8 @@ in 2006 after a double masters degree at `Telecom ParisTech`_
 and `Ecole normale supérieure in Cachan (DEA MVA) <http://www.cmla.ens-cachan.fr/Cmla/DeaMVA/index.html>`_.
 My research interests are on brain functional imaging (MEG, EEG, fMRI) where I apply my background in signal and image processing, scientific computing, numerical methods, data mining and machine learning.
 
+My :ref:`phd` page
+
 .. Publications
 
 .. include:: publications.rst
@@ -55,19 +57,21 @@ My research interests are on brain functional imaging (MEG, EEG, fMRI) where I a
 Software
 --------
 
-- OpenMEEG - C++ package for low-frequency bio-electromagnetism including the
+- `OpenMEEG <http://openmeeg.gforge.inria.fr>`_ - C++ package for low-frequency bio-electromagnetism including the
   EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM which has
   shown to provide very accurate solutions. Some features: parallel
   processing, Python Bindings, Matlab integration with Fieldtrip and Brainstorm
 
-- EMBAL (Soon available) - Matlab toolbox that implements many solvers for
+- `Scikit Learn <http://scikit-learn.sourceforge.net/>`_ - A great Python project for machine learning.
+
+- `MNE <http://martinos.org/mne>`_ - A complete package to process EEG and MEG data: forward and inverse problems, stats, time-frequency analysis.
+
+- `EMBAL <http://embal.gforge.inria.fr/>`_ (Soon available) - Matlab toolbox that implements many solvers for
   M/EEG inverse modeling (L2 a.k.a MN or WMN, L1, L21, L212, Total-Variation,
   LORETA, HEAT, sLORETA, dSPM, Gamma-MAP, Bayesian approach with Restricted
   Maximum Likelihood etc.).
 
-- EEGLAB Plugins - A set of EEGLAB plugins for single trial analysis.
-
-- Scikit-Learn - A Python project for machine learning.
+- `EEGLAB Plugins <http://alexandre.gramfort.net/eeglab-plugin-ieee-tbme-2010/>`_ - An EEGLAB plugin for single trial analysis.
 
 More on my `GitHub page`_.
 
@@ -85,5 +89,6 @@ More on my `GitHub page`_.
    :hidden:
 
    publications
+   phd
 
 .. include:: links.txt
