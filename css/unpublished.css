@@ -1,0 +1,49 @@
+ul {
+    margin-left: 20px;
+    list-style-image: url('../img/paper.png');
+}
+
+li {
+    margin-left: 10px;
+    clear:both;
+    padding-top: 5px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    padding-left: 10px;
+    font-size: 115%;
+    border-left: 5px solid #003399;
+}
+
+h3 {
+    font-size: 100%;
+    margin-left: 20px;
+}
+
+#content img {
+    position: relative;
+    top:-10px;
+}
+
+.project-illustration {
+    float:right;
+    margin-right: 40px;
+    padding-top: 20px;
+}
+
+.project {
+    margin-right : 180px;
+    font-size: 90%;
+}
+
+.project-date {
+    font-size: 110%;
+    display: inline;
+}
+
+.project-title {
+    font-size: 110%;
+    font-weight: bold;
+    display: inline;
+}
