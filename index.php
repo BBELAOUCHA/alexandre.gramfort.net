@@ -166,10 +166,13 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
         <a href="http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=70">
             Matti Hamalainen</a> (MGH / HST / Harvard Medical School, Boston, USA)
         <br />
+        <a href="http://parietal.saclay.inria.fr/Members/bertrand-thirion">Bertrand Thirion</a> (INRIA Parietal, Neurospin, France)
+        <br />
+        <a href="http://gael-varoquaux.info/">Gaël Varoquaux</a> (INRIA Parietal, Neurospin, France)
+        <br />
         <a href="http://www.dmi.usherb.ca/~descotea/index.en.html">Maxime Descoteaux</a> (Sherbrooke University, Québec, Canada)
         <br />
         <a href="https://sites.google.com/site/virginievanwassenhove/">Virginie van Wassenhove</a> (CEA Neurospin, France)
-        <br />
         <br />
     </div>
 </div>

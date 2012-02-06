@@ -10,6 +10,7 @@ mv localhost/agramfort deploy
 touch deploy/.nojekyll
 perl -e "s/http:\/\/localhost\/agramfort\//./g;" -pi.save $(find deploy/ -type f)
 find deploy -name "*.save" | xargs rm -f
+cp img/down.png deploy/img/down.png
 echo alexandre.gramfort.net > deploy/CNAME
 rm -rf localhost
 
