@@ -152,6 +152,8 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
     <div class="part_content">
         <a href="http://fseoane.net">Fabian Pedregosa</a> [PhD]
         <br />
+        Daniel Strohmeier [PhD]
+        <br />
     </div>
 </div>
 
