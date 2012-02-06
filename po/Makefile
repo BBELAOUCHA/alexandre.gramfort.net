@@ -1,7 +1,7 @@
 APPLICATION = webinria
-MSGFMT = msgfmt --statistics -v -o
-MSGFMTSOL = msgfmt -v -o
-MSGMERGE = msgmerge -U
+MSGFMT = /usr/local/Cellar/gettext/0.18.1.1/bin/msgfmt --statistics -v -o
+MSGFMTSOL = /usr/local/Cellar/gettext/0.18.1.1/bin/msgfmt -v -o
+MSGMERGE = /usr/local/Cellar/gettext/0.18.1.1/bin/msgmerge -U
 
 all: install
 

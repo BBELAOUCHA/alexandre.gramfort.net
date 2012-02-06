@@ -38,7 +38,7 @@
         <title>Alexandre Gramfort - INRIA <?= $title ?></title>
 
         <meta name="ROBOTS" content="ALL" />
-        <meta name="Copyright" content="(c) 2007 Copyright content:  Copyright design: Alexandre Gramfort" />
+        <meta name="Copyright" content="(c) 2007-2012 Copyright content:  Copyright design: Alexandre Gramfort" />
         <!-- (c) Copyright 2007 by Alexandre Gramfort All Rights Reserved. -->
 
         <meta name="verify-v1" content="o8pXHqVtLtfyLzBnsv8Uca2MgaF8MpUjdZEXbf1DqAI=" />
@@ -98,11 +98,11 @@
                 <div id="title">
                     Alexandre Gramfort<br />
                     <small>
-                    <?php echo "<em>"._("Research Fellow")."</em>"; ?><br />
-                    <a href="http://www.nmr.mgh.harvard.edu/martinos/flashHome.php"><?= _("Martinos Center for Biomedical Imaging") ?></a><br />
-                    Harvard - Massachusetts General Hospital, Boston, USA
-                    <!-- <a href="http://parietal.saclay.inria.fr/"><?= _("Parietal Project Team") ?></a><br />
-                    INRIA Saclay Ile-de-France, CEA Neurospin -->
+                    <?php echo "<em>"._("Researcher")."</em>"; ?><br />
+                    <!-- <a href="http://www.nmr.mgh.harvard.edu/martinos/flashHome.php"><?= _("Martinos Center for Biomedical Imaging") ?></a><br />
+                    Harvard - Massachusetts General Hospital, Boston, USA -->
+                    <a href="http://parietal.saclay.inria.fr/"><?= _("Parietal Project Team") ?></a><br />
+                    INRIA Saclay Ile-de-France, CEA Neurospin
                     </small>
                 </div>
                 <!-- end div.title -->

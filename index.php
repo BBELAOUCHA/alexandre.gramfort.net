@@ -7,9 +7,15 @@
 
 <script type="text/javascript" charset="utf-8" src="js/index.js"> </script>
 
-<div id="collapse_expand">
-    <span id="expand-text"><img src="img/expand_icon.gif" alt="expand"/> <?= _("Expand all") ?></span>
-    <span id="collapse-text" class="hidden"><img src="img/collapse_icon.gif" alt="collapse"/> <?= _("Collapse all") ?></span>
+<div id="about">
+    <div>
+        <a href="http://about.me/agramfort"><?php echo _("@About.me"); ?></a><br />
+        <a href="http://twitter.com/agramfort"><?php echo _("@Twitter"); ?></a><br />
+        <a href="http://github.com/agramfort"><?php echo _("@GitHub"); ?></a><br />
+        <a href="http://www.linkedin.com/in/alexandregramfort"><?php echo _("@LinkedIn"); ?></a>
+        <br />
+        <a href="http://www.mathworks.com/matlabcentral/fileexchange/authors/54402"><?php echo _("@Matlab"); ?></a>
+    </div>
 </div>
 
 <div class="part_content">
@@ -39,17 +45,22 @@
     </table>
 </div>
 
+<div id="collapse_expand">
+    <span id="expand-text"><img src="img/expand_icon.gif" alt="expand"/> <?= _("Expand all") ?></span>
+    <span id="collapse-text" class="hidden"><img src="img/collapse_icon.gif" alt="collapse"/> <?= _("Collapse all") ?></span>
+</div>
+
 <!-- begin div.resume -->
 <div id="resume" class="block">
     <div class="part_title">
         <div class="slide_button" style="float:right">
             <img alt="expand-collapse" src="img/left.png"/>
         </div>
-        <?php echo ".: "._("Resume")." :."; ?>
+        <?php echo ".: "._("Biosketch")." :."; ?>
     </div>
     <div class="part_content">
 
-        <?= _("I'm currently a research fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/flashHome.php\">Martinos Center</a> for Biomedical Imaging in Boston working with <a href=\"http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</a>. I was previously postdoctoral fellow in the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>.  I obtained my PhD in 2009 from <a href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> under the supervision of <a href=\"http://www-sop.inria.fr/members/Maureen.Clerc/?>.html\">Maureen Clerc</a>
+        <?= _("I'm currently researcher in the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>. I used to be research fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/flashHome.php\">Martinos Center</a> for Biomedical Imaging in Boston working with <a href=\"http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</a>. Previously I was postdoctoral fellow in the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>.  I obtained my PhD in 2009 from <a href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> under the supervision of <a href=\"http://www-sop.inria.fr/members/Maureen.Clerc/?>.html\">Maureen Clerc</a>
         and <a href=\"http://www-sop.inria.fr/members/Olivier.Faugeras/\">Olivier Faugeras</a>. I did my PhD jointly at <a href=\"http://www-sop.inria.fr\">INRIA in Sophia Antipolis</a> and the <a href=\"http://di.ens.fr\">Computer Science Department at the Ecole normale supérieure</a> in Paris. I graduated from the <a href=\"http://www.polytechnique.edu\">Ecole Polytechnique</a> in 2006 after a double masters degree at <a href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> and the <a href=\"http://www.cmla.ens-cachan.fr/Cmla/DeaMVA/index.html\">Ecole normale supérieure in  Cachan (DEA MVA)</a>. My research interests are on brain functional imaging (MEG, EEG, fMRI) where I apply my background in signal and image processing, scientific computing, numerical methods, data mining and machine learning.") ?>
     </div>
 </div>
@@ -69,7 +80,7 @@
                 <?php echo _("My publications on HAL"); ?>
             </a>
         </div>
-        
+
         <?php
 
             include_once 'publis.inc.php';
@@ -94,13 +105,19 @@
                     <?php echo _("OpenMEEG"); ?>
                 </a>
                 <?php echo " - "._("C++ package for low-frequency bio-electromagnetism
-including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM which has shown to provide very accurate solutions. Some features: parallel processing, Python Bindings, Matlab integration with <a href='http://fieldtrip.fcdonders.nl/'>Fieldtrip</a>."); ?>
+including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM which has shown to provide very accurate solutions. Some features: parallel processing, Python Bindings, Matlab integration with <a href='http://fieldtrip.fcdonders.nl/'>Fieldtrip</a> and <a href='http://neuroimage.usc.edu/brainstorm/'>BrainStorm</a>."); ?>
             </li>
             <li>
-                <a href="http://embal.gforge.inria.fr">
-                    <?php echo _("EMBAL (Soon available)"); ?>
+                <a href="http://scikit-learn.sourceforge.net">
+                    <?php echo _("Scikit Learn"); ?>
                 </a>
-                <?php echo " - "._("Matlab toolbox that implements many solvers for M/EEG inverse modeling (L2 a.k.a MN or WMN, L1, L21, L212, Total-Variation, LORETA, HEAT, sLORETA, dSPM, Gamma-MAP, Bayesian approach with Restricted Maximum Likelihood etc.)."); ?>
+                <?php echo " - "._("A Python project for machine learning."); ?>
+            </li>
+            <li>
+                <a href="http://martinos.org/mne">
+                    <?php echo _("MNE"); ?>
+                </a>
+                <?php echo " - "._("A complete package to process EEG and MEG data: forward and inverse problems (MNE, dSPM, MxNE), stats, time-frequency analysis."); ?>
             </li>
             <li>
                 <a href="http://eeglab-plugins.gforge.inria.fr">
@@ -109,36 +126,53 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
                 <?php echo " - "._("A set of <a href='http://sccn.ucsd.edu/eeglab/'>EEGLAB</a> plugins for single trial analysis."); ?>
             </li>
             <li>
-                <a href="http://scikit-learn.sourceforge.net">
-                    <?php echo _("Scikit Learn"); ?>
+                <a href="http://embal.gforge.inria.fr">
+                    <?php echo _("EMBAL"); ?>
                 </a>
-                <?php echo " - "._("A Python project for machine learning."); ?>
+                <?php echo " - "._("Matlab toolbox that implements many solvers for M/EEG inverse modeling (L2 a.k.a MN or WMN, L1, L21, L212, Total-Variation, LORETA, HEAT, sLORETA, dSPM, Gamma-MAP, Bayesian approach with Restricted Maximum Likelihood etc.)."); ?>
+            </li>
+            <li>
+                <?php echo _("More on my "); ?>
+                <a href="http://github.com/agramfort">
+                    <?php echo _("GitHub page"); ?>.
+                </a>
             </li>
         </ul>
     </div>
 </div>
 <!-- end div.software -->
 
-<!-- begin div.links -->
-<div id="links" class="block">
+<div id="students" class="block">
     <div class="part_title">
         <div class="slide_button" style="float:right">
             <img alt="expand-collapse" src="img/left.png"/>
         </div>
-        <?php echo ".: "._("Links")." :."; ?>
+        <?php echo ".: "._("Students")." :."; ?>
     </div>
     <div class="part_content">
-        <a href="http://www.linkedin.com/in/alexandregramfort"><?php echo _("@LinkedIn"); ?></a>
-        <img src="img/linkedin.gif" alt="linkedIn"/><br />
-        <a href="http://www.mathworks.com/matlabcentral/fileexchange/authors/54402"><?php echo _("@Matlab File Exchange"); ?></a>
-        <img src="img/matlab_logo.gif" alt="Matlab"/><br />
-        <a href="http://twitter.com/agramfort"><?php echo _("@Twitter"); ?></a><br />
-        <a href="http://github.com/agramfort"><?php echo _("@GitHub"); ?></a><br />
-        <!-- <a href="http://alexandre.gramfort.net/tech"><?php echo _("My blog"); ?></a><br />
-        <a href="http://alexandre.gramfort.net" class="hidden"><?php echo _("My personal blog"); ?></a> -->
+        <a href="http://fseoane.net">Fabian Pedregosa</a> [PhD]
+        <br />
     </div>
 </div>
-<!-- end div.links -->
+
+<div id="collabs" class="block">
+    <div class="part_title">
+        <div class="slide_button" style="float:right">
+            <img alt="expand-collapse" src="img/left.png"/>
+        </div>
+        <?php echo ".: "._("Collaborations")." :."; ?>
+    </div>
+    <div class="part_content">
+        <a href="http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=70">
+            Matti Hamalainen</a> (MGH / HST / Harvard Medical School, Boston, USA)
+        <br />
+        <a href="http://www.dmi.usherb.ca/~descotea/index.en.html">Maxime Descoteaux</a> (Sherbrooke University, Québec, Canada)
+        <br />
+        <a href="https://sites.google.com/site/virginievanwassenhove/">Virginie van Wassenhove</a> (CEA Neurospin, France)
+        <br />
+        <br />
+    </div>
+</div>
 
 <?php
 

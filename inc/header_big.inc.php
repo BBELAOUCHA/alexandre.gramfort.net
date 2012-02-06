@@ -27,8 +27,8 @@
         <title>Alexandre Gramfort - INRIA</title>
 
         <meta name="ROBOTS" content="ALL" />
-        <meta name="Copyright" content="(c) 2007 Copyright content:  Copyright design: Alexandre Gramfort" />
-        <!-- (c) Copyright 2007 by Alexandre Gramfort All Rights Reserved. -->
+        <meta name="Copyright" content="(c) 2007-2012 Copyright content:  Copyright design: Alexandre Gramfort" />
+        <!-- (c) Copyright 2007-2012 by Alexandre Gramfort All Rights Reserved. -->
 
         <base href=<?php echo $site_root; ?>/>
         <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />

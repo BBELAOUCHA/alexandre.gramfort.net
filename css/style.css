@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Arial, "MS Trebuchet", sans-serif;
-    background-color: #CCC;
+    background-color: #BBB;
 }
 
 img	{
@@ -40,6 +40,7 @@ h3 a:hover {
     width: 900px;
     border: 1px solid #999;
     border-top: 10px solid #003399;
+    border-bottom: 7px solid #003399;
     background-color: #FFF;
     margin-left: auto;
     margin-right: auto;
@@ -130,8 +131,10 @@ h3 a:hover {
 }
 
 #footer {
-    font-size: 80%;
+    font-size: 60%;
     padding-top: 8px;
+    font-style: italic;
+    color: #FFF;
 }
 
 .subscript {
@@ -219,6 +222,17 @@ tr {
     background-color: transparent;
     cursor: pointer;
     font-size: 90%;
+}
+
+
+#about {
+    float: right;
+    margin-right: 20px;
+    color: #0000cc;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 90%;
+    text-align: right;
 }
 
 .hidden {
