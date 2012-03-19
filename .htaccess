@@ -1,6 +1,0 @@
-RewriteEngine On
-
-RewriteRule ^(.*).en.html$ ./$1.php?lang=en
-RewriteRule ^(.*).fr.html$ ./$1.php?lang=fr
-RewriteRule ^data/(.*)$ ./browse.php?p=$1
-RewriteRule ^download/(.*)$ ./dl.php?p=$1
