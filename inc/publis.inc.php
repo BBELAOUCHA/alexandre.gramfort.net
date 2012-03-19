@@ -100,6 +100,7 @@
             $html .= $entry['annote'];
             $html .= "</div>";
         }
+        $html = str_replace("{\\\"a}", "ä", $html);
         $html .= "<div class='publi-bibtex' id='bibtex_".$counter."'>";
         $html .= "<div class='publi-bibtex-title'>Bibtex</div>";
         $html .= nl2br($bibtex->bibTexEntry($entry));
