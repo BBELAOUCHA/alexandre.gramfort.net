@@ -176,6 +176,8 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
         <br />
         <a href="https://sites.google.com/site/virginievanwassenhove/">Virginie van Wassenhove</a> (CEA Neurospin, France)
         <br />
+        <a href="http://www.di.ens.fr/~fbach/">Francis Bach</a> (INRIA - ENS, France)
+        <br />
     </div>
 </div>
 
