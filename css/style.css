@@ -1,0 +1,267 @@
+body {
+    font-family: Verdana, Arial, "MS Trebuchet", sans-serif;
+    background-color: #BBB;
+}
+
+img	{
+    border: 0px solid #999;
+}
+
+a, a:visited {
+    color: #003399;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: underline
+}
+
+h1 {
+    text-align: center;
+    font-size: 130%;
+    color:white;
+    background-color: #003399;
+    padding: 7px 0px;
+}
+
+h3 a:hover {
+    font-style: italic;
+    text-decoration: none
+}
+
+#full {
+    text-align: center;
+}
+
+#main {
+    width: 900px;
+    border: 1px solid #999;
+    border-top: 10px solid #003399;
+    border-bottom: 7px solid #003399;
+    background-color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    background-image: url('../img/brain.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+#content {
+    margin-bottom: 60px;
+    clear:both;
+}
+
+#menu {
+    text-align: center;
+    color: #666;
+    font-size: 120%;
+    border-bottom: 1px solid #999;
+}
+
+#menu span {
+    margin: 10px 4px;
+    cursor: pointer;
+}
+
+#menu span:hover {
+    border-bottom: 5px solid #003399;
+}
+
+#picture {
+    float:  left;
+    margin: 10px 0px 0px 10px;
+}
+
+#header-right {
+    float: right;
+    margin-top: 5px; 
+    margin-right: 10px; 
+    text-align: right;
+}
+
+#header-right a:hover {
+    text-decoration: none;
+    font-style: italic;
+}
+
+#title {
+    text-align: center;
+    padding: 30px 0px;
+    font-size: 130%;
+    font-weight: bold;
+    line-height: 1.6em;
+}
+
+#contact {
+    text-align: center;
+    padding: 10px 0px;
+    margin: 0px 10px;
+    margin-right : 180px;
+    font-size: 95%;
+}
+
+.part_title {
+    padding: 5px 10px;
+    margin: 0px 180px 0px 0px;
+    font-weight: bold;
+    border-bottom: 1px solid #999;
+    font-size: 110%;
+}
+
+.part_content {
+    padding: 3px 0px;
+    margin: 0px 10px;
+    margin-right : 180px;
+    font-size: 95%;
+}
+
+.date {
+    font-style: italic;
+    margin-right: 20px;
+    width:200px;
+    vertical-align: top;
+}
+
+.more_button {
+    text-align: right;
+}
+
+#footer {
+    font-size: 60%;
+    padding-top: 8px;
+    font-style: italic;
+    color: #FFF;
+}
+
+.subscript {
+    font-size: 80%;
+}
+
+.part_content ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.part_content li {
+    margin: 15px 0px;
+    padding-left: 10px;
+    border-left: 1px solid #999;
+}
+
+tr {
+    margin: 15px 0px;
+    padding-left: 10px;
+    border-left: 1px solid #999;
+}
+
+.publi-bibtex {
+    font-size: 85%;
+    display: none;
+}
+
+.publi-bibtex-title {
+    font-weight: bold;
+}
+
+.publi-abstract {
+    text-align: justify;
+    font-size: 90%;
+    display: none;
+}
+
+.publi-abstract-title {
+    font-weight: bold;
+}
+
+.publi-title {
+    font-weight: bold;
+}
+
+.publi-author {
+    font-size: 90%;
+}
+
+.publi-keywords {
+    font-style: italic;
+    font-size: 90%;
+}
+
+.publi-note {
+    font-weight: bold;
+    color: #003399;
+    font-size: 90%;
+}
+
+.publi-booktitle {
+    font-size: 90%;
+}
+
+.publi-year {
+    font-size: 110%;
+    font-weight: bold;
+}
+
+#last_update {
+    font-size: 70%;
+    color: rgb(100,100,100);
+    margin-left: 5px;
+}
+
+#resume .part_content {
+    text-align: justify;
+}
+
+#collapse_expand {
+    float: right;
+    margin-right: 20px;
+    color: #0000cc;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 90%;
+}
+
+
+#about {
+    float: right;
+    margin-right: 20px;
+    color: #0000cc;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 90%;
+    text-align: right;
+}
+
+.hidden {
+    display:none;
+}
+
+#goto-top {
+    height: 100px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.part_content_visible {
+    padding: 30px 0px;
+    margin: 0px 10px;
+    margin-right : 180px;
+    font-size: 125%;
+}
+
+.phd_image {
+    padding-top: 5px;
+    text-align:center;
+    width:200px;
+    display: inline-block;
+    font-size: 90%;
+}
+
+#phd_images {
+    text-align:center;
+    width:630px;
+}
