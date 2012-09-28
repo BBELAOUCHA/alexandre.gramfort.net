@@ -35,7 +35,7 @@
         <base href="<?php echo $site_root; ?>/"/>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
         <meta http-equiv="Content-Language" content="<?php echo "$lang_content"; ?>" />
-        <title>Alexandre Gramfort - INRIA <?= $title ?></title>
+        <title>Alexandre Gramfort - Telecom ParisTech <?= $title ?></title>
 
         <meta name="ROBOTS" content="ALL" />
         <meta name="Copyright" content="(c) 2007-2012 Copyright content:  Copyright design: Alexandre Gramfort" />
@@ -98,11 +98,12 @@
                 <div id="title">
                     Alexandre Gramfort<br />
                     <small>
-                    <?php echo "<em>"._("Researcher")."</em>"; ?><br />
+                    <?php echo "<em>"._("Assistant Professor")."</em>"; ?><br />
                     <!-- <a href="http://www.nmr.mgh.harvard.edu/martinos/flashHome.php"><?= _("Martinos Center for Biomedical Imaging") ?></a><br />
                     Harvard - Massachusetts General Hospital, Boston, USA -->
-                    <a href="http://parietal.saclay.inria.fr/"><?= _("Parietal Project Team") ?></a><br />
-                    INRIA Saclay Ile-de-France, CEA Neurospin
+                    <a href="http://http://www.telecom-paristech.fr/"><?= _("Telecom ParisTech") ?></a><br />
+                    <a href="http://www.tsi.telecom-paristech.fr/" title="Département Traitement du Signal et des Images">TSI</a> Department - <a href="http://www.tsi.telecom-paristech.fr/aao/" title="Groupe AAO">AAO</a> Team
+                    <!-- INRIA Saclay Ile-de-France, CEA Neurospin -->
                     </small>
                 </div>
                 <!-- end div.title -->

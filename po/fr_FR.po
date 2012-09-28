@@ -39,6 +39,10 @@ msgid "Odyssée Lab"
 msgstr "Projet Odyssée"
 
 #: ../inc/header.inc.php:101
+msgid "Assistant Professor"
+msgstr "Enseignant-Chercheur"
+
+#: ../inc/header.inc.php:101
 msgid "Researcher"
 msgstr "Chercheur"
 
@@ -49,6 +53,10 @@ msgstr ""
 #: ../inc/header.inc.php:102 ../inc/header.inc.php:104
 msgid "Parietal Project Team"
 msgstr "Equipe Projet Parietal"
+
+#: ../inc/header.inc.php:104
+msgid "Telecom ParisTech"
+msgstr ""
 
 #: ../inc/publis.inc.php:39 ../inc/publis.inc.php:42 ../inc/publis.inc.php:45
 #: ../inc/publis.inc.php:48 ../inc/publis.inc.php:77
@@ -110,6 +118,16 @@ msgstr ""
 #: ../index.php:61 ../index.php:62
 msgid "Presentation"
 msgstr "Présentation"
+
+#: ../index.php:36
+msgid ""
+"Brain functional imaging (MEG, EEG, fMRI), Computational Neurosciences, "
+"Signal and Image Processing, Computer Vision, Scientific Computing, Machine "
+"Learning"
+msgstr ""
+"Imagerie fonctionelle cérébrale (MEG, EEG, fMRI), Neurosciences "
+"computationnelles, Vision par ordinateur, Traitement du signal et des "
+"images, Calcul Scientifique, Apprentissage statistique"
 
 #: ../index.php:36 ../index.php:42 ../index.php:58 ../index_phd.php:58
 msgid "PhD Thesis web page"
@@ -219,65 +237,56 @@ msgstr "Bio"
 
 #: ../index.php:63
 msgid ""
-"I'm currently researcher in the INRIA <a href=\"http://parietal.saclay.inria."
-"fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>. I used to be "
-"research fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/"
-"flashHome.php\">Martinos Center</a> for Biomedical Imaging in Boston working "
+"I'm currently assistant professor at <a href=\"http://telecom-paristech.fr/"
+"\" title=\"Telecom ParisTech\">Telecom ParisTech</a>. I used to be research "
+"fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/flashHome.php"
+"\">Martinos Center</a> for Biomedical Imaging at Harvard in Boston working "
 "with <a href=\"http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?"
-"people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</a>. Previously I "
-"was postdoctoral fellow in the INRIA <a href=\"http://parietal.saclay.inria."
-"fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>.  I obtained my PhD "
-"in 2009 from <a href=\"http://www.telecom-paristech.fr//\">Telecom "
-"ParisTech</a> under the supervision of <a href=\"http://www-sop.inria.fr/"
-"members/Maureen.Clerc/?>.html\">Maureen Clerc</a>\n"
-"        and <a href=\"http://www-sop.inria.fr/members/Olivier.Faugeras/"
-"\">Olivier Faugeras</a>. I did my PhD jointly at <a href=\"http://www-sop."
-"inria.fr\">INRIA in Sophia Antipolis</a> and the <a href=\"http://di.ens.fr"
-"\">Computer Science Department at the Ecole normale supérieure</a> in Paris. "
-"I graduated from the <a href=\"http://www.polytechnique.edu\">Ecole "
-"Polytechnique</a> in 2006 after a double masters degree at <a href=\"http://"
-"www.telecom-paristech.fr//\">Telecom ParisTech</a> and the <a href=\"http://"
-"www.cmla.ens-cachan.fr/Cmla/DeaMVA/index.html\">Ecole normale supérieure in  "
-"Cachan (DEA MVA)</a>. My research interests are on brain functional imaging "
-"(MEG, EEG, fMRI) where I apply my background in signal and image processing, "
-"scientific computing, numerical methods, data mining and machine learning."
+"people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</a>, as well at "
+"the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal"
+"\">Parietal Project Team</a> in Neurospin-CEA Saclay. I obtained <a href="
+"\"phd.en.html\" title=\"PhD Alexandre Gramfort\">my PhD</a> in 2009 from <a "
+"href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> under the "
+"supervision of <a href=\"http://www-sop.inria.fr/members/Maureen.Clerc/?>."
+"html\">Maureen Clerc</a> and <a href=\"http://www-sop.inria.fr/members/"
+"Olivier.Faugeras/\">Olivier Faugeras</a>. My research interests are on "
+"mathematical modeling and the computational aspects of brain imaging (MEG, "
+"EEG, fMRI, dMRI). I am more generally interested in biomedical signal and "
+"image processing with a taste for scientific computing, numerical methods, "
+"data mining and machine learning."
 msgstr ""
-"Je suis chercheur dans l'équipe INRIA "
-"<a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal</a>."
-" J'ai été postdoctorant au <a href=\"http://www.nmr.mgh.harvard.edu/martinos/"
-"flashHome.php\">Martinos Center</a> for Biomedical Imaging à Boston sous la "
+"Je suis enseignant chercheur à <a href=\"http://telecom-paristech.fr/"
+"\" title=\"Telecom ParisTech\">Telecom ParisTech</a>. J'étais auparavant "
+"postdoctorant au <a href=\"http://www.nmr.mgh.harvard.edu/martinos/"
+"flashHome.php\">Martinos Center</a> for Biomedical Imaging à Harvard, Boston, sous la "
 "direction de <a href=\"http://www.nmr.mgh.harvard.edu/martinos/people/"
 "showPerson.php?people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</"
-"a> et auparavant dans l'équipe INRIA <a href=\"http://"
+"a>, ainsi que dans l'équipe INRIA <a href=\"http://"
 "parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal</a>.  J'ai "
 "obtenu ma thèse en 2009 de <a href=\"http://www.telecom-paristech.fr//"
 "\">Telecom ParisTech</a> sous la supervision de <a href=\"http://www-sop."
 "inria.fr/members/Maureen.Clerc/?>.html\">Maureen Clerc</a>\n"
 "        et <a href=\"http://www-sop.inria.fr/members/Olivier.Faugeras/"
-"\">Olivier Faugeras</a>. J'ai fait ma thèse conjointement à <a href=\"http://"
-"www-sop.inria.fr\">l'INRIA Sophia Antipolis</a> et au <a href=\"http://di."
-"ens.fr\">département d'informatique de l'École normale supérieure</a> à "
-"Paris. Je suis diplomé de l'<a href=\"http://www.polytechnique.edu\">École "
-"Polytechnique</a> depuis 2006 après un double master à <a href=\"http://www."
-"enst.fr/\">Telecom Paris</a> et à l'<a href=\"http://www.cmla.ens-cachan.fr/"
-"Cmla/DeaMVA/index.html\">École normale supérieure de  Cachan (DEA MVA)</a>. "
-"Mon travail porte l'analyse de données en imagerie fonctionnelle cérébrale "
-"(MEG, EEG, IRMf) à l'aide de méthodes issues du traitement du signal, du "
-"traitement d'images, de l'analyse numérique et de l'apprentissage "
-"statistique."
-#: ../index.php:64 ../index.php:75 ../index.php:83 ../index.php:89
-#: ../index.php:91 ../index.php:107 ../index.php:115 ../index.php:117
-#: ../index.php:119 ../index.php:123 ../index_phd.php:89
+"\">Olivier Faugeras</a>. "
+"Mon travail porte sur la modélisation et l'analyse de données en imagerie cérébrale "
+"(MEG, EEG, IRMf, IRMd). Je suis plus généralement intéressé par le traitement du signal "
+"et des images pour les applications biomédicales, ainsi que le calcul "
+"scientifique et l'apprentissage statistique."
+
+#: ../index.php:64 ../index.php:74 ../index.php:75 ../index.php:83
+#: ../index.php:89 ../index.php:91 ../index.php:107 ../index.php:115
+#: ../index.php:117 ../index.php:119 ../index.php:123 ../index_phd.php:89
 msgid "Publications"
 msgstr "Publications"
 
 #: ../index.php:65 ../index.php:76 ../index.php:82 ../index.php:85
-#: ../index.php:88 ../index.php:91 ../index.php:99 ../index.php:104
-#: ../index.php:110 ../index.php:112 ../index_phd.php:110
+#: ../index.php:88 ../index.php:91 ../index.php:98 ../index.php:99
+#: ../index.php:104 ../index.php:110 ../index.php:112 ../index_phd.php:110
 msgid "Software"
 msgstr "Logiciels"
 
-#: ../index.php:68 ../index.php:69 ../index.php:80 ../publications.php:18
+#: ../index.php:68 ../index.php:69 ../index.php:79 ../index.php:80
+#: ../publications.php:18
 msgid "My publications on HAL"
 msgstr "Mes publications sur HAL"
 
@@ -322,7 +331,8 @@ msgstr ""
 "a>."
 
 #: ../index.php:97 ../index.php:100 ../index.php:103 ../index.php:119
-#: ../index.php:125 ../index.php:127 ../index.php:132 ../index_phd.php:125
+#: ../index.php:125 ../index.php:127 ../index.php:131 ../index.php:132
+#: ../index_phd.php:125
 msgid ""
 "Matlab toolbox that implements many solvers for M/EEG inverse modeling (L2 a."
 "k.a MN or WMN, L1, L21, L212, Total-Variation, LORETA, HEAT, sLORETA, dSPM, "
@@ -333,7 +343,8 @@ msgstr ""
 "LORETA, HEAT, sLORETA, dSPM, Gamma-MAP, Approche Bayesienne par Restricted "
 "Maximum Likelihood etc.)."
 
-#: ../index.php:101 ../index.php:104 ../index.php:107 ../index.php:124
+#: ../index.php:101 ../index.php:104 ../index.php:107 ../index.php:123
+#: ../index.php:124
 msgid "EEGLAB Plugins"
 msgstr ""
 
@@ -346,7 +357,7 @@ msgstr ""
 "Plugins <a href='http://sccn.ucsd.edu/eeglab/'>EEGLAB</a> pour l'analyse de "
 "données simple essai."
 
-#: ../index.php:107
+#: ../index.php:106 ../index.php:107
 msgid ""
 "C++ package for low-frequency bio-electromagnetism\n"
 "including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM "
@@ -356,19 +367,21 @@ msgid ""
 "edu/brainstorm/'>BrainStorm</a>."
 msgstr ""
 
-#: ../index.php:107 ../index.php:110 ../index.php:112 ../index.php:113
+#: ../index.php:107 ../index.php:110 ../index.php:111 ../index.php:112
+#: ../index.php:113
 msgid "Scikit Learn"
 msgstr ""
 
-#: ../index.php:109 ../index.php:112 ../index.php:114 ../index.php:115
+#: ../index.php:109 ../index.php:112 ../index.php:113 ../index.php:114
+#: ../index.php:115
 msgid "A Python project for machine learning."
 msgstr "Projet d'apprentissage statistique en Python."
 
-#: ../index.php:118
+#: ../index.php:117 ../index.php:118
 msgid "MNE"
 msgstr ""
 
-#: ../index.php:120
+#: ../index.php:119 ../index.php:120
 msgid ""
 "A complete package to process EEG and MEG data: forward and inverse problems "
 "(MNE, dSPM, MxNE), stats, time-frequency analysis."
@@ -376,7 +389,7 @@ msgstr ""
 "Project pour l'analyse de données EEG and MEG: problème direct et inverse "
 "(MNE, dSPM, MxNE), stats, analyse temps-fréquence."
 
-#: ../index.php:130
+#: ../index.php:129 ../index.php:130
 msgid "EMBAL"
 msgstr ""
 
@@ -384,19 +397,19 @@ msgstr ""
 msgid "@Matlab File Exchange"
 msgstr ""
 
-#: ../index.php:135
+#: ../index.php:134 ../index.php:135
 msgid "More on my "
 msgstr "Voir ma "
 
-#: ../index.php:137
+#: ../index.php:136 ../index.php:137
 msgid "GitHub page"
 msgstr "page GitHub"
 
-#: ../index.php:150
+#: ../index.php:149 ../index.php:150
 msgid "Students"
 msgstr "Etudiants"
 
-#: ../index.php:163
+#: ../index.php:163 ../index.php:164
 msgid "Collaborations"
 msgstr "Collaborations"
 

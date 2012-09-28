@@ -33,15 +33,15 @@
         <tr>
             <td style="text-align:right;width:200px"><em><strong><?php echo _("Research interests"); ?> : </strong></em></td>
             <td>
-                <?php echo _("Brain functional imaging (MEG, EEG, fMRI), Computational Neurosciences, Signal and Image Processing, Computer Vision, Machine Learning"); ?>
+                <?php echo _("Brain functional imaging (MEG, EEG, fMRI), Computational Neurosciences, Signal and Image Processing, Computer Vision, Scientific Computing, Machine Learning"); ?>
             </td>
         </tr>
-        <tr>
+        <!-- <tr>
             <td style="text-align:right"></td>
             <td style="text-align:center">
                 <a href="phd.<?php echo $lang; ?>.html">.:<?php echo _("PhD Thesis web page") ?>:.</a>
             </td>
-        </tr>
+        </tr> -->
     </table>
 </div>
 
@@ -60,8 +60,7 @@
     </div>
     <div class="part_content">
 
-        <?= _("I'm currently researcher in the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>. I used to be research fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/flashHome.php\">Martinos Center</a> for Biomedical Imaging in Boston working with <a href=\"http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</a>. Previously I was postdoctoral fellow in the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>.  I obtained my PhD in 2009 from <a href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> under the supervision of <a href=\"http://www-sop.inria.fr/members/Maureen.Clerc/?>.html\">Maureen Clerc</a>
-        and <a href=\"http://www-sop.inria.fr/members/Olivier.Faugeras/\">Olivier Faugeras</a>. I did my PhD jointly at <a href=\"http://www-sop.inria.fr\">INRIA in Sophia Antipolis</a> and the <a href=\"http://di.ens.fr\">Computer Science Department at the Ecole normale supérieure</a> in Paris. I graduated from the <a href=\"http://www.polytechnique.edu\">Ecole Polytechnique</a> in 2006 after a double masters degree at <a href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> and the <a href=\"http://www.cmla.ens-cachan.fr/Cmla/DeaMVA/index.html\">Ecole normale supérieure in  Cachan (DEA MVA)</a>. My research interests are on brain functional imaging (MEG, EEG, fMRI) where I apply my background in signal and image processing, scientific computing, numerical methods, data mining and machine learning.") ?>
+        <?= _("I'm currently assistant professor at <a href=\"http://telecom-paristech.fr/\" title=\"Telecom ParisTech\">Telecom ParisTech</a>. I used to be research fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/flashHome.php\">Martinos Center</a> for Biomedical Imaging at Harvard in Boston working with <a href=\"http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</a>, as well at the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal\">Parietal Project Team</a> in Neurospin-CEA Saclay. I obtained <a href=\"phd.en.html\" title=\"PhD Alexandre Gramfort\">my PhD</a> in 2009 from <a href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> under the supervision of <a href=\"http://www-sop.inria.fr/members/Maureen.Clerc/?>.html\">Maureen Clerc</a> and <a href=\"http://www-sop.inria.fr/members/Olivier.Faugeras/\">Olivier Faugeras</a>. My research interests are on mathematical modeling and the computational aspects of brain imaging (MEG, EEG, fMRI, dMRI). I am more generally interested in biomedical signal and image processing with a taste for scientific computing, numerical methods, data mining and machine learning.") ?>
     </div>
 </div>
 <!-- end div.resume -->

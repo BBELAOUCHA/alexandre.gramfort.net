@@ -38,6 +38,10 @@ msgid "Odyssée Lab"
 msgstr ""
 
 #: ../inc/header.inc.php:101
+msgid "Assistant Professor"
+msgstr ""
+
+#: ../inc/header.inc.php:101
 msgid "Ph.D. Student"
 msgstr ""
 
@@ -51,6 +55,10 @@ msgstr ""
 
 #: ../inc/header.inc.php:102 ../inc/header.inc.php:104
 msgid "Parietal Project Team"
+msgstr ""
+
+#: ../inc/header.inc.php:104
+msgid "Telecom ParisTech"
 msgstr ""
 
 #: ../inc/publis.inc.php:39 ../inc/publis.inc.php:42 ../inc/publis.inc.php:45
@@ -120,6 +128,13 @@ msgstr ""
 msgid ""
 "Brain functional imaging, Computational Neuroscience, Signal and Image "
 "Processing, Computer Vision, Machine Learning"
+msgstr ""
+
+#: ../index.php:36
+msgid ""
+"Brain functional imaging (MEG, EEG, fMRI), Computational Neurosciences, "
+"Signal and Image Processing, Computer Vision, Scientific Computing, Machine "
+"Learning"
 msgstr ""
 
 #: ../index.php:36 ../index.php:42 ../index.php:58 ../index_phd.php:58
@@ -246,6 +261,27 @@ msgstr ""
 
 #: ../index.php:63
 msgid ""
+"I'm currently assistant professor at <a href=\"http://telecom-paristech.fr/"
+"\" title=\"Telecom ParisTech\">Telecom ParisTech</a>. I used to be research "
+"fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/flashHome.php"
+"\">Martinos Center</a> for Biomedical Imaging at Harvard in Boston working "
+"with <a href=\"http://www.nmr.mgh.harvard.edu/martinos/people/showPerson.php?"
+"people_id=70\" title=\"Matti Hamalainen\">Matti Hamalainen</a>, as well at "
+"the INRIA <a href=\"http://parietal.saclay.inria.fr/\" title=\"INRIA Parietal"
+"\">Parietal Project Team</a> in Neurospin-CEA Saclay. I obtained <a href="
+"\"phd.en.html\" title=\"PhD Alexandre Gramfort\">my PhD</a> in 2009 from <a "
+"href=\"http://www.telecom-paristech.fr//\">Telecom ParisTech</a> under the "
+"supervision of <a href=\"http://www-sop.inria.fr/members/Maureen.Clerc/?>."
+"html\">Maureen Clerc</a> and <a href=\"http://www-sop.inria.fr/members/"
+"Olivier.Faugeras/\">Olivier Faugeras</a>. My research interests are on "
+"mathematical modeling and the computational aspects of brain imaging (MEG, "
+"EEG, fMRI, dMRI). I am more generally interested in biomedical signal and "
+"image processing with a taste for scientific computing, numerical methods, "
+"data mining and machine learning."
+msgstr ""
+
+#: ../index.php:63
+msgid ""
 "I'm currently researcher in the INRIA <a href=\"http://parietal.saclay.inria."
 "fr/\" title=\"INRIA Parietal\">Parietal Project Team</a>. I used to be "
 "research fellow at the <a href=\"http://www.nmr.mgh.harvard.edu/martinos/"
@@ -270,19 +306,20 @@ msgid ""
 "scientific computing, numerical methods, data mining and machine learning."
 msgstr ""
 
-#: ../index.php:64 ../index.php:75 ../index.php:83 ../index.php:89
-#: ../index.php:91 ../index.php:107 ../index.php:115 ../index.php:117
-#: ../index.php:119 ../index.php:123 ../index_phd.php:89
+#: ../index.php:64 ../index.php:74 ../index.php:75 ../index.php:83
+#: ../index.php:89 ../index.php:91 ../index.php:107 ../index.php:115
+#: ../index.php:117 ../index.php:119 ../index.php:123 ../index_phd.php:89
 msgid "Publications"
 msgstr ""
 
 #: ../index.php:65 ../index.php:76 ../index.php:82 ../index.php:85
-#: ../index.php:88 ../index.php:91 ../index.php:99 ../index.php:104
-#: ../index.php:110 ../index.php:112 ../index_phd.php:110
+#: ../index.php:88 ../index.php:91 ../index.php:98 ../index.php:99
+#: ../index.php:104 ../index.php:110 ../index.php:112 ../index_phd.php:110
 msgid "Software"
 msgstr ""
 
-#: ../index.php:68 ../index.php:69 ../index.php:80 ../publications.php:18
+#: ../index.php:68 ../index.php:69 ../index.php:79 ../index.php:80
+#: ../publications.php:18
 msgid "My publications on HAL"
 msgstr ""
 
@@ -314,14 +351,16 @@ msgid "My page on LinkedIn"
 msgstr ""
 
 #: ../index.php:97 ../index.php:100 ../index.php:103 ../index.php:119
-#: ../index.php:125 ../index.php:127 ../index.php:132 ../index_phd.php:125
+#: ../index.php:125 ../index.php:127 ../index.php:131 ../index.php:132
+#: ../index_phd.php:125
 msgid ""
 "Matlab toolbox that implements many solvers for M/EEG inverse modeling (L2 a."
 "k.a MN or WMN, L1, L21, L212, Total-Variation, LORETA, HEAT, sLORETA, dSPM, "
 "Gamma-MAP, Bayesian approach with Restricted Maximum Likelihood etc.)."
 msgstr ""
 
-#: ../index.php:101 ../index.php:104 ../index.php:107 ../index.php:124
+#: ../index.php:101 ../index.php:104 ../index.php:107 ../index.php:123
+#: ../index.php:124
 msgid "EEGLAB Plugins"
 msgstr ""
 
@@ -332,7 +371,7 @@ msgid ""
 "single trial analysis."
 msgstr ""
 
-#: ../index.php:107
+#: ../index.php:106 ../index.php:107
 msgid ""
 "C++ package for low-frequency bio-electromagnetism\n"
 "including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM "
@@ -342,16 +381,24 @@ msgid ""
 "edu/brainstorm/'>BrainStorm</a>."
 msgstr ""
 
-#: ../index.php:107 ../index.php:110 ../index.php:112 ../index.php:113
+#: ../index.php:107 ../index.php:110 ../index.php:111 ../index.php:112
+#: ../index.php:113
 msgid "Scikit Learn"
 msgstr ""
 
-#: ../index.php:109 ../index.php:112 ../index.php:114 ../index.php:115
+#: ../index.php:109 ../index.php:112 ../index.php:113 ../index.php:114
+#: ../index.php:115
 msgid "A Python project for machine learning."
 msgstr ""
 
-#: ../index.php:118
+#: ../index.php:117 ../index.php:118
 msgid "MNE"
+msgstr ""
+
+#: ../index.php:119 ../index.php:120
+msgid ""
+"A complete package to process EEG and MEG data: forward and inverse problems "
+"(MNE, dSPM, MxNE), stats, time-frequency analysis."
 msgstr ""
 
 #: ../index.php:119 ../index.php:126 ../index.php:129 ../index.php:132
@@ -359,12 +406,6 @@ msgstr ""
 #: ../index.php:145 ../index.php:147 ../index.php:151 ../index.php:153
 #: ../index_phd.php:153
 msgid "My blog"
-msgstr ""
-
-#: ../index.php:120
-msgid ""
-"A complete package to process EEG and MEG data: forward and inverse problems "
-"(MNE, dSPM, MxNE), stats, time-frequency analysis."
 msgstr ""
 
 #: ../index.php:123 ../index.php:129 ../index.php:131 ../index_phd.php:129
@@ -376,7 +417,7 @@ msgstr ""
 msgid "My page on Matlab File Exchange"
 msgstr ""
 
-#: ../index.php:130
+#: ../index.php:129 ../index.php:130
 msgid "EMBAL"
 msgstr ""
 
@@ -384,19 +425,19 @@ msgstr ""
 msgid "@Matlab File Exchange"
 msgstr ""
 
-#: ../index.php:135
+#: ../index.php:134 ../index.php:135
 msgid "More on my "
 msgstr ""
 
-#: ../index.php:137
+#: ../index.php:136 ../index.php:137
 msgid "GitHub page"
 msgstr ""
 
-#: ../index.php:150
+#: ../index.php:149 ../index.php:150
 msgid "Students"
 msgstr ""
 
-#: ../index.php:163
+#: ../index.php:163 ../index.php:164
 msgid "Collaborations"
 msgstr ""
 
