@@ -1,3 +1,59 @@
+@inproceedings{zaremba-etal:2013,
+    url = {http://hal.inria.fr/hal-00803981},
+    title = {{Learning from M/EEG data with variable brain activation delays}},
+    author = {Zaremba, Wojciech and M. Pawan, Kumar and Gramfort, Alexandre and Blaschko, Matthew},
+    abstract = {{Magneto- and electroencephalography (M/EEG) measure the electromagnetic signals produced by brain activity. In order to address the issue of limited signal-to-noise ratio (SNR) with raw data, acquisitions consist of multiple repetitions of the same experiment. An important challenge arising from such data is the variability of brain activations over the repetitions. It hinders statistical analysis such as prediction performance in a supervised learning setup. One such confounding variability is the time offset of the peak of the activation, which varies across repetitions. We propose to address this misalignment issue by explicitly modeling time shifts of different brain responses in a classification setup. To this end, we use the latent support vector machine (LSVM) formulation, where the latent shifts are inferred while learning the classifier parameters. The inferred shifts are further used to improve the SNR of the M/EEG data, and to infer the chronometry and the sequence of activations across the brain regions that are involved in the experimental task. Results are validated on a long term memory retrieval task, showing significant improvement using the proposed latent discriminative method.}},
+    booktitle = {{International Conference on Information Processing in Medical Imaging 2013}},
+    address = {Asilomar, {\'E}tats-Unis},
+    year = {2013},
+    month = Mar,
+    pdf = {http://hal.inria.fr/hal-00803981/PDF/ipmi2013.pdf},
+}
+
+@article{gramfort-etal:2013,
+title = "Time-frequency mixed-norm estimates: Sparse M/EEG imaging with non-stationary source activations",
+journal = "NeuroImage",
+volume = "70",
+number = "0",
+pages = "410 - 422",
+year = "2013",
+note = "",
+issn = "1053-8119",
+doi = "10.1016/j.neuroimage.2012.12.051",
+url = "http://www.sciencedirect.com/science/article/pii/S1053811912012372",
+author = "A. Gramfort and D. Strohmeier and J. Haueisen and M.S. Hämäläinen and M. Kowalski",
+keywords = {Inverse problem, Magnetoencephalography (MEG), Electroencephalography (EEG), Sparse structured priors, Convex optimization, Time-frequency, Algorithms}
+}
+
+@article{khan-etal:2013,
+author = {Khan, Sheraz and Gramfort, Alexandre and Shetty, Nandita R. and Kitzbichler, Manfred G. and Ganesan, Santosh and Moran, Joseph M. and Lee, Su Mei and Gabrieli, John D. E. and Tager-Flusberg, Helen B. and Joseph, Robert M. and Herbert, Martha R. and Hämäläinen, Matti S. and Kenet, Tal},
+title = {Local and long-range functional connectivity is reduced in concert in autism spectrum disorders},
+year = {2013},
+doi = {10.1073/pnas.1214533110},
+abstract ={Long-range cortical functional connectivity is often reduced in autism spectrum disorders (ASD), but the nature of local cortical functional connectivity in ASD has remained elusive. We used magnetoencephalography to measure task-related local functional connectivity, as manifested by coupling between the phase of alpha oscillations and the amplitude of gamma oscillations, in the fusiform face area (FFA) of individuals diagnosed with ASD and typically developing individuals while they viewed neutral faces, emotional faces, and houses. We also measured task-related long-range functional connectivity between the FFA and the rest of the cortex during the same paradigm. In agreement with earlier studies, long-range functional connectivity between the FFA and three distant cortical regions was reduced in the ASD group. However, contrary to the prevailing hypothesis in the field, we found that local functional connectivity within the FFA was also reduced in individuals with ASD when viewing faces. Furthermore, the strength of long-range functional connectivity was directly correlated to the strength of local functional connectivity in both groups; thus, long-range and local connectivity were reduced proportionally in the ASD group. Finally, the magnitude of local functional connectivity correlated with ASD severity, and statistical classification using local and long-range functional connectivity data identified ASD diagnosis with 90% accuracy. These results suggest that failure to entrain neuronal assemblies fully both within and across cortical regions may be characteristic of ASD.},
+URL = {http://www.pnas.org/content/early/2013/01/09/1214533110.abstract},
+eprint = {http://www.pnas.org/content/early/2013/01/09/1214533110.full.pdf+html},
+journal = {Proceedings of the National Academy of Sciences (PNAS)}
+}
+
+
+@inproceedings{gramfort:hal-00723897,
+    hal_id = {hal-00723897},
+    url = {http://hal.inria.fr/hal-00723897},
+    title = {{Sparse DSI: Learning DSI structure for denoising and fast imaging}},
+    author = {Gramfort, Alexandre and Cyril, Poupon and Descoteaux, Maxime},
+    abstract = {{Diffusion spectrum imaging (DSI) from multiple diffusion-weighted images (DWI) allows to image the complex geometry of water diffusion in biological tissue. To capture the structure of DSI data, we propose to use sparse coding constrained by physical properties of the signal, namely symmetry and positivity, to learn a dictionary of diffu- sion profiles. Given this estimated model of the signal, we can extract better estimates of the signal from noisy measurements and also speed up acquisition by reducing the number of acquired DWI while giving access to high resolution DSI data. The method learns jointly for all the acquired DWI and scales to full brain data. Working with two sets of 515 DWI images acquired on two different subjects we show that using just half of the data (258 DWI) we can better predict the other 257 DWI than the classic symmetry procedure. The observation holds even if the diffusion profiles are estimated on a different subject dataset from an undersampled q-space of 40 measurements.}},
+    keywords = {diffusion MRI, dictionary learning, diffusion spectral imaging DSI, sparse, brain},
+    language = {Anglais},
+    affiliation = {PARIETAL - INRIA Saclay - Ile de France , Athinoula A. Martinos Center for Biomedical Imaging , Laboratoire de Neuroimagerie Assist{\'e}e par Ordinateur - LNAO , Sherbrooke Connectivity Imaging Laboratory - SCIL},
+    booktitle = {{MICCAI}},
+    publisher = {Springer},
+    address = {Nice, France},
+    audience = {internationale },
+    year = {2012},
+    month = Oct,
+}
+
 @article{varoquaux-etal:2012b,
     hal_id = {hal-00665340},
     url = {http://hal.inria.fr/hal-00665340},
