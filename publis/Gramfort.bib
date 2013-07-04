@@ -1,3 +1,16 @@
+@inproceedings{pedregosa-etal:2013,
+    url = {http://hal.inria.fr/hal-00821946},
+    title = {{HRF estimation improves sensitivity of fMRI encoding and decoding models}},
+    author = {Pedregosa, Fabian and Eickenberg, Michael and Thirion, Bertrand and Gramfort, Alexandre},
+    abstract = {{Extracting activation patterns from functional Magnetic Resonance Images (fMRI) datasets remains challenging in rapid-event designs due to the inherent delay of blood oxygen level-dependent (BOLD) signal. The general linear model (GLM) allows to estimate the activation from a design matrix and a fixed hemodynamic response function (HRF). However, the HRF is known to vary substantially between subjects and brain regions. In this paper, we propose a model for jointly estimating the hemodynamic response function (HRF) and the activation patterns via a low-rank representation of task effects.This model is based on the linearity assumption behind the GLM and can be computed using standard gradient-based solvers. We use the activation patterns computed by our model as input data for encoding and decoding studies and report performance improvement in both settings.}},
+    keywords = {fMRI; hemodynamic; HRF; GLM; BOLD; encoding; decoding},
+    booktitle = {{3nd International Workshop on Pattern Recognition in NeuroImaging}},
+    address = {Philadelphia, {\'E}tats-Unis},
+    year = {2013},
+    month = May,
+    pdf = {http://hal.inria.fr/hal-00821946/PDF/paper.pdf},
+}
+
 @inproceedings{gramfort-etal:2013a,
     url = {http://hal.inria.fr/hal-00839984},
     title = {{Identifying predictive regions from fMRI with TV-L1 prior}},
@@ -10,6 +23,18 @@
     year = {2013},
     month = Jun,
     pdf = {http://hal.inria.fr/hal-00839984/PDF/paper.pdf},
+}
+
+@inproceedings{hitziger-etal:2013,
+    url = {http://hal.inria.fr/hal-00837987},
+    title = {{Jitter-Adaptive Dictionary Learning - Application to Multi-Trial Neuroelectric Signals}},
+    author = {Hitziger, Sebastian and Clerc, Maureen and Gramfort, Alexandre and Saillet, Sandrine and B{\'e}nar, Christian and Papadopoulo, Th{\'e}odore},
+    abstract = {{Dictionary Learning has proven to be a powerful tool for many image processing tasks, where atoms are typically defined on small image patches. As a drawback, the dictionary only encodes basic structures. In addition, this approach treats patches of different locations in one single set, which means a loss of information when features are well-aligned across signals. This is the case, for instance, in multi-trial magneto- or electroencephalography (M/EEG). Learning the dictionary on the entire signals could make use of the alignement and reveal higher-level features. In this case, however, small missalignements or phase variations of features would not be compensated for. In this paper, we propose an extension to the common dictionary learning framework to overcome these limitations by allowing atoms to adapt their position across signals. The method is validated on simulated and real neuroelectric data.}},
+    booktitle = {{ICLR - 1st International Conference on Learning Representations - 2013}},
+    address = {Scottsdale, AZ, {\'E}tats-Unis},
+    organization = {Yoshua Bengio, Yann Lecun},
+    year = {2013},
+    month = Jan,
 }
 
 @inproceedings{zaremba-etal:2013,
