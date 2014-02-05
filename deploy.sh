@@ -8,6 +8,7 @@ sudo /Applications/MAMP/bin/apache2/bin/apachectl stop
 rm -rf deploy
 mv localhost/agramfort deploy
 touch deploy/.nojekyll
+cp img/brain.jpg deploy/img
 perl -e "s/http:\/\/localhost\/agramfort\//./g;" -pi.save $(find deploy/ -type f)
 find deploy -name "*.save" | xargs rm -f
 cp img/down.png deploy/img/down.png
