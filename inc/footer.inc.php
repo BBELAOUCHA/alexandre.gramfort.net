@@ -3,7 +3,7 @@
         <!-- end div.content -->
 
         <div id="last_update">
-            <?php echo _("Last update : ")." 01-02-2012"; ?>
+            <?php echo _("Last update : ")." 01-02-2014"; ?>
         </div>
 
         </div>
@@ -11,7 +11,7 @@
 
         <!-- begin div.footer -->
         <div id="footer">
-            Designed by Alexandre Gramfort - Copyright 2007-2012
+            Designed by Alexandre Gramfort - Copyright 2007-2014
             <!-- <a href="http://validator.w3.org/check?uri=referer">
                 <img src="img/xhtml_valid.png" alt="valid xhtml" class="" />
             </a>

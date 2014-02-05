@@ -265,3 +265,18 @@ tr {
     text-align:center;
     width:630px;
 }
+
+.news_title {
+    padding: 0px 10px;
+    margin: 20px 180px 0px 0px;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.news_content {
+    padding: 3px 0px;
+    margin: 0px 0px;
+    margin-right : 180px;
+    font-size: 80%;
+    font-style: italic;
+}

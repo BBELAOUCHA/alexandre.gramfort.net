@@ -9,12 +9,12 @@
 
 <div id="about">
     <div>
-        <a href="http://about.me/agramfort"><?php echo _("@About.me"); ?></a><br />
+        <!-- <a href="http://about.me/agramfort"><?php echo _("@About.me"); ?></a><br /> -->
         <a href="http://twitter.com/agramfort"><?php echo _("@Twitter"); ?></a><br />
         <a href="http://github.com/agramfort"><?php echo _("@GitHub"); ?></a><br />
-        <a href="http://www.linkedin.com/in/alexandregramfort"><?php echo _("@LinkedIn"); ?></a>
-        <br />
-        <a href="http://www.mathworks.com/matlabcentral/fileexchange/authors/54402"><?php echo _("@Matlab"); ?></a>
+        <a href="http://www.linkedin.com/in/alexandregramfort"><?php echo _("@LinkedIn"); ?></a><br />
+        <a href="http://scholar.google.com/citations?user=fhxshS0AAAAJ"><?php echo _("@Google Scholar"); ?></a><br />
+        <!-- <a href="http://www.mathworks.com/matlabcentral/fileexchange/authors/54402"><?php echo _("@Matlab"); ?></a> -->
     </div>
 </div>
 
@@ -78,6 +78,10 @@
             <a href="http://hal.inria.fr/index.php?action_todo=search&amp;submit=1&amp;s_type=simple&amp;f[0]=@*&amp;v[0]=gramfort" title="HAL - INRIA - Gramfort">
                 <?php echo _("My publications on HAL"); ?>
             </a>
+            and
+            <a href="http://scholar.google.com/citations?user=fhxshS0AAAAJ" title="Google scholar - Gramfort">
+                <?php echo _("Google Scholar"); ?>
+            </a>
         </div>
 
         <?php
@@ -100,14 +104,14 @@
     <div class="part_content">
         <ul>
             <li>
-                <a href="http://openmeeg.gforge.inria.fr">
+                <a href="http://openmeeg.github.io">
                     <?php echo _("OpenMEEG"); ?>
                 </a>
                 <?php echo " - "._("C++ package for low-frequency bio-electromagnetism
 including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM which has shown to provide very accurate solutions. Some features: parallel processing, Python Bindings, Matlab integration with <a href='http://fieldtrip.fcdonders.nl/'>Fieldtrip</a> and <a href='http://neuroimage.usc.edu/brainstorm/'>BrainStorm</a>."); ?>
             </li>
             <li>
-                <a href="http://scikit-learn.sourceforge.net">
+                <a href="http://scikit-learn.org">
                     <?php echo _("Scikit Learn"); ?>
                 </a>
                 <?php echo " - "._("A Python project for machine learning."); ?>
@@ -118,7 +122,7 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
                 </a>
                 <?php echo " - "._("A complete package to process EEG and MEG data: forward and inverse problems (MNE, dSPM, MxNE), stats, time-frequency analysis."); ?>
             </li>
-            <li>
+            <!-- <li>
                 <a href="http://eeglab-plugins.gforge.inria.fr">
                     <?php echo _("EEGLAB Plugins"); ?>
                 </a>
@@ -129,7 +133,7 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
                     <?php echo _("EMBAL"); ?>
                 </a>
                 <?php echo " - "._("Matlab toolbox that implements many solvers for M/EEG inverse modeling (L2 a.k.a MN or WMN, L1, L21, L212, Total-Variation, LORETA, HEAT, sLORETA, dSPM, Gamma-MAP, Bayesian approach with Restricted Maximum Likelihood etc.)."); ?>
-            </li>
+            </li> -->
             <li>
                 <?php echo _("More on my "); ?>
                 <a href="http://github.com/agramfort">
@@ -177,6 +181,69 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
         <br />
         <a href="http://www.di.ens.fr/~fbach/">Francis Bach</a> (INRIA - ENS, France)
         <br />
+    </div>
+</div>
+
+<div id="teaching" class="block">
+    <div class="part_title">
+        <div class="slide_button" style="float:right">
+            <img alt="expand-collapse" src="img/left.png"/>
+        </div>
+        <?php echo ".: "._("Teaching")." :."; ?>
+    </div>
+    <div class="part_content">
+        &bull; Telecom ParisTech:
+        <ul>
+            <li><a href="http://enseignements.telecom-paristech.fr/cours.php?id=1009" title="MDI210 Optimisation">MDI210 Optimisation (intro)</a></li>
+            <li><a href="http://enseignements.telecom-paristech.fr/cours.php?id=460" title="MDI224 Méthodes d'optimisation continue et applications">MDI224 Optimisation (advanced)</a></li>
+            <li><a href="http://enseignements.telecom-paristech.fr/cours.php?id=301" title="SI101 Outils et applications pour le signal, les images et le son">SI101 Signal processing</a></li>
+            <li><a href="http://enseignements.telecom-paristech.fr/cours.php?id=508" title="SI341 Méthodes avancées pour le traitement du signal">SI341 Signal processing (advanced)</a></li>
+            <li><a href="http://enseignements.telecom-paristech.fr/cours.php?id=465" title="MDI343 Apprentissage statistique et fouille de donnees">MDI343 Machine Learning</a></li>
+            <!-- <li></li> -->
+        </ul>
+        &bull; Univ. Paris 5, <a href="http://www.bme-paris.com/" title="Master BioMedical Engineering (BME-Paris)">Master BioMedical Engineering (BME)</a>:
+        <ul>
+            <li>Functional neuroimaging with MEG/EEG</li>
+        </ul>
+        &bull; Univ. Paris 6 UMPC, <a href="http://www-master.ufr-info-p6.jussieu.fr/lmd/specialite/ima/" title="Master informatique : sp&eacute;cialit&eacute; IMA">Master Informatique (Option IMA)</a>:
+        <ul>
+            <li>Magnetic Resonance Imaging (MRI): From physics to the image processing</li>
+            <li>Functional neuroimaging with MEG/EEG</li>
+        </ul>
+        <br />
+    </div>
+</div>
+
+<div id="positions" class="block">
+    <div class="part_title">
+        <div class="slide_button" style="float:right">
+            <img alt="expand-collapse" src="img/left.png"/>
+        </div>
+        <?php echo ".: "._("Available Positions")." :."; ?>
+    </div>
+    <div class="part_content">
+        <ul>
+            <li>Master internship on realtime analysis of EEG data using <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a></li>
+            <li>Engineer to work on <a href="http://scikit-learn.org/stable/" title="scikit-learn: machine learning in Python &mdash; scikit-learn 0.14 documentation">Scikit-Learn</a></li>
+            <li>Engineer to work on <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a></li>
+            <li>PhD position on MEG/EEG data analysis (machine learning, signal processing)</li>
+        </ul>
+        This list is fuzzy so please contact me directly for potential opportunities.
+    </div>
+</div>
+
+<div id="news">
+    <div class="news_title">
+        <?php echo ".: "._("News")." :."; ?>
+    </div>
+    <div class="news_content">
+    <ul>
+        <li>20 Jan. 2014: I'll be teaching MEG/EEG data analysis with <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a> in Stockholm Karolinska Institute <a href="http://natmeg.se/wp/" title="NatMEG |">NatMEG</a> data analysis <a href="http://natmeg.se/wp/activities/data-analysis-workshop/" title="Data Analysis Workshop  |  NatMEG">workshop</a></li>
+        <li>4. Dec. 2013: <a href="http://mne-training-session-paris.eventbrite.com/" title="MNE Training Session in Paris Tickets, Paris - Eventbrite">MNE Training Session</a> in Paris, ICM</li>
+        <li>23. Oct. 2013: I'll be at <a href="http://www.neurobureau.org/blog/2013/05/05/announcing-brainhack-2013-in-paris-23-25-october-2013/" title="Announcing Brainhack in Paris, 23-25 October 2013 | The Neuro Bureau">BrainHack</a> in Paris</li>
+        <li>7. Oct. 2013: I'll be at <a href="http://www.unitn.it/cimec" title="UNITN | Cimec">CIMEC</a> in Trento, Italy to teach <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a> and <a href="http://scikit-learn.org/stable/" title="scikit-learn: machine learning in Python &mdash; scikit-learn 0.14 documentation">Scikit-Learn</a></li>
+        <li>23. Sept. 2013: I'll be in Magdeburg, Germany to teach <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a> for the <a href="http://www.timely-cost.eu/?q=time-news" title="Time News | Timely COST">Timely Workshop</a></li>
+    </ul>
     </div>
 </div>
 
