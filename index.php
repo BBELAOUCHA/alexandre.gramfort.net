@@ -238,6 +238,9 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
     </div>
     <div class="news_content">
     <ul>
+        <li>6 June. 2014: My student Daniel Strohmeier gets the Best Paper Award at <a href="http://www.prni.org/" title="PRNI">PRNI conference</a>
+            for <a href="https://dl.dropboxusercontent.com/u/2140486/strohmeier_prni2014.pdf">our work on the M/EEG inverse problem</a>.</li>
+        <li>17 June. 2014: I'll be talking on the <a href="http://martinos.org/mne/stable/index.html" title="Google Summer of Code 2014">MNE project</a> at the <a href="http://neuroinf.fr/workshop2014/" title="INCF National Node of France">INCF Paris workshop</a></li>
         <li>24 Aug. 2014: My symposium on supervised learning for M/EEG data analysis has been accepted at <a href="http://www.biomag2014.org/" title="BIOMAG 2014">BIOMAG 2014</a></li>
         <li>3 Sept. 2014: I'll give a talk at the workshop on <a href="http://www2.warwick.ac.uk/fac/sci/statistics/crism/workshops/neuroscience/" title="Statistical Challenges in Neuroscience">Statistical Challenges in Neuroscience</a> in Warwick UK</li>
         <li>8 Jun. 2014: My work will be presented in 2 oral presentations at <a href="http://www.humanbrainmapping.org/" title="Human Brain Mapping conference">Human Brain Mapping conference</a>.</li>
