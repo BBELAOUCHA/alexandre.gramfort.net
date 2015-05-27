@@ -75,7 +75,7 @@
     </div>
     <div class="part_content">
         <div style="float:right; margin-top:10px; font-style:italic">
-            <a href="http://hal.inria.fr/index.php?action_todo=search&amp;submit=1&amp;s_type=simple&amp;f[0]=@*&amp;v[0]=gramfort" title="HAL - INRIA - Gramfort">
+            <a href="https://hal.inria.fr/search/index/q/%2A/authIdHal_s/agramfort/" title="HAL - INRIA - Gramfort">
                 <?php echo _("My publications on HAL"); ?>
             </a>
             and
@@ -145,22 +145,31 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
 </div>
 <!-- end div.software -->
 
-<div id="students" class="block">
+<div id="team" class="block">
     <div class="part_title">
         <div class="slide_button" style="float:right">
             <img alt="expand-collapse" src="img/left.png"/>
         </div>
-        <?php echo ".: "._("Students")." :."; ?>
+        <?php echo ".: "._("Team")." :."; ?>
     </div>
     <div class="part_content">
-        <a href="http://fseoane.net">Fabian Pedregosa</a> [PhD]
-        <br />
-        Daniel Strohmeier [PhD]
-        <br />
+        <div class='part_section'><?php echo _("Post Docs"); ?></div>
+        Jair Montoya <br />
+        <div class='part_section'><?php echo _("Engineers"); ?></div>
+        Tom Dupré La Tour <br />
+        <div class='part_section'><?php echo _("PhD Students"); ?></div>
+        Michael Eickenberg (coadvised with <a href="http://parietal.saclay.inria.fr/Members/bertrand-thirion">Bertrand Thirion</a>)<br />
+        Daniel Strohmeier (coadvised with <a href="https://www.tu-ilmenau.de/bmti/fachgebiete/biomedizinische-technik/prof-dr-ing-habil-jens-haueisen/">Jens Haueisen</a>)<br />
+        Albert Thomas (coadvised with <a href="http://perso.telecom-paristech.fr/~clemenco/Home.html">Stéphan Clémençon</a>)<br />
+        Romain Laby (coadvised with <a href="http://perso.telecom-paristech.fr/~roueff/">François Roueff</a>)<br />
+        Yousra Bekhti (coadvised with <a href="http://perso.telecom-paristech.fr/~rbadeau/">Roland Badeau</a>)<br />
+        Mainak Jas<br />
+        <div class='part_section'><?php echo _("Alumni"); ?></div>
+        <a href="http://fseoane.net">Fabian Pedregosa</a> [PhD]  (coadvised with <a href="http://www.di.ens.fr/~fbach/">Francis Bach</a>)<br />
     </div>
 </div>
 
-<div id="collabs" class="block">
+<!-- <div id="collabs" class="block">
     <div class="part_title">
         <div class="slide_button" style="float:right">
             <img alt="expand-collapse" src="img/left.png"/>
@@ -182,7 +191,7 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
         <a href="http://www.di.ens.fr/~fbach/">Francis Bach</a> (INRIA - ENS, France)
         <br />
     </div>
-</div>
+</div> -->
 
 <div id="teaching" class="block">
     <div class="part_title">
@@ -210,6 +219,13 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
             <li>Magnetic Resonance Imaging (MRI): From physics to the image processing</li>
             <li>Functional neuroimaging with MEG/EEG</li>
         </ul>
+        &bull; Ecole Polytechnique,
+        <a href="http://www.lix.polytechnique.fr/bigdata/mathbigdata/"
+           title="DataSciences Mathematics and Applications">Master DataSciences Mathematics and Applications</a>:
+        <ul>
+            <li>Optimization and numerical methods for data sciences</li>
+            <li>Problem solving "Data Camp" in data sciences</li>
+        </ul>
         <br />
     </div>
 </div>
@@ -223,7 +239,6 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
     </div>
     <div class="part_content">
         <ul>
-            <li>Master internship on realtime analysis of EEG data using <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a></li>
             <li>Engineer to work on <a href="http://scikit-learn.org/stable/" title="scikit-learn: machine learning in Python &mdash; scikit-learn 0.14 documentation">Scikit-Learn</a></li>
             <li>Engineer to work on <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a></li>
             <li>PhD position on MEG/EEG data analysis (machine learning, signal processing)</li>

@@ -1,3 +1,55 @@
+@article{pedregosa-etal:15,
+title = "Data-driven HRF estimation for encoding and decoding models",
+journal = "NeuroImage ",
+volume = "104",
+number = "0",
+pages = "209 - 220",
+year = "2015",
+note = "",
+issn = "1053-8119",
+doi = "http://dx.doi.org/10.1016/j.neuroimage.2014.09.060",
+url = "http://www.sciencedirect.com/science/article/pii/S1053811914008027",
+author = "Fabian Pedregosa and Michael Eickenberg and Philippe Ciuciu and Bertrand Thirion and Alexandre Gramfort",
+keywords = "Functional MRI (fMRI),, Hemodynamic response function (HRF), Machine learning, Optimization, BOLD,Finite impulse response (FIR), Decoding, Encoding",
+abstract = "Abstract Despite the common usage of a canonical, data-independent, hemodynamic response function (HRF), it is known that the shape of the \{HRF\} varies across brain regions and subjects. This suggests that a data-driven estimation of this function could lead to more statistical power when modeling \{BOLD\} fMRI data. However, unconstrained estimation of the \{HRF\} can yield highly unstable results when the number of free parameters is large. We develop a method for the joint estimation of activation and \{HRF\} by means of a rank constraint, forcing the estimated \{HRF\} to be equal across events or experimental conditions, yet permitting it to differ across voxels. Model estimation leads to an optimization problem that we propose to solve with an efficient quasi-Newton method, exploiting fast gradient computations. This model, called \{GLM\} with Rank-1 constraint (R1-GLM), can be extended to the setting of \{GLM\} with separate designs which has been shown to improve decoding accuracy in brain activity decoding experiments. We compare 10 different \{HRF\} modeling methods in terms of encoding and decoding scores on two different datasets. Our results show that the R1-GLM model outperforms competing methods in both encoding and decoding settings, positioning it as an attractive method both from the points of view of accuracy and computational efficiency. "
+}
+
+@InProceedings{fercoq-etal:15,
+author={Olivier Fercoq and Alexandre Gramfort and Joseph Salmon},
+booktitle={Proc. ICML 2015},
+title={Mind the duality gap: safer rules for the Lasso},
+year={2015},
+month={July},
+url={http://arxiv.org/abs/1505.03410},
+}
+
+@InProceedings{gramfort-etal:15,
+author={Alexandre Gramfort and Gabriel Peyré and Marco Cuturi},
+booktitle={Proc. IPMI 2015},
+title={Fast Optimal Transport Averaging of Neuroimaging Data},
+year={2015},
+month={July},
+url={http://arxiv.org/abs/1503.08596},
+}
+
+@article{engemann-etal:15,
+title = "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals",
+journal = "NeuroImage ",
+volume = "108",
+number = "0",
+pages = "328 - 342",
+year = "2015",
+note = "",
+issn = "1053-8119",
+doi = "http://dx.doi.org/10.1016/j.neuroimage.2014.12.040",
+url = "http://www.sciencedirect.com/science/article/pii/S1053811914010325",
+author = "Denis A. Engemann and Alexandre Gramfort",
+keywords = "Electroencephalography (EEG), Magnetoencephalography (MEG), Neuroimaging, Covariance estimation, Model selection, Statistical learning",
+abstract = "Abstract Magnetoencephalography and electroencephalography (M/EEG) measure non-invasively the weak electromagnetic fields induced by post-synaptic neural currents. The estimation of the spatial covariance of the signals recorded on M/EEG sensors is a building block of modern data analysis pipelines. Such covariance estimates are used in brain–computer interfaces (BCI) systems, in nearly all source localization methods for spatial whitening as well as for data covariance estimation in beamformers. The rationale for such models is that the signals can be modeled by a zero mean Gaussian distribution. While maximizing the Gaussian likelihood seems natural, it leads to a covariance estimate known as empirical covariance (EC). It turns out that the \{EC\} is a poor estimate of the true covariance when the number of samples is small. To address this issue the estimation needs to be regularized. The most common approach downweights off-diagonal coefficients, while more advanced regularization methods are based on shrinkage techniques or generative models with low rank assumptions: probabilistic \{PCA\} (PPCA) and factor analysis (FA). Using cross-validation all of these models can be tuned and compared based on Gaussian likelihood computed on unseen data. We investigated these models on simulations, one electroencephalography (EEG) dataset as well as magnetoencephalography (MEG) datasets from the most common \{MEG\} systems. First, our results demonstrate that different models can be the best, depending on the number of samples, heterogeneity of sensor types and noise properties. Second, we show that the models tuned by cross-validation are superior to models with hand-selected regularization. Hence, we propose an automated solution to the often overlooked problem of covariance estimation of M/EEG signals. The relevance of the procedure is demonstrated here for spatial whitening and source localization of \{MEG\} signals. "
+}
+
+
+
 @ARTICLE{moussallam-etal:14,
 author={Moussallam, M. and Gramfort, A and Daudet, L. and Richard, G.},
 journal={Signal Processing Letters, IEEE},
@@ -43,19 +95,6 @@ ISSN={1070-9908},}
     abstract = {{Magnetoencephalography (MEG) can map brain activity by recording the electromagnetic fields generated by the electrical currents in the brain during a perceptual or cognitive task. This technique offers a very high temporal resolution that allows noninvasive brain exploration at a millisecond (ms) time scale. Decoding, a.k.a. brain reading, consists in predicting from neuroimaging data the subject's behavior and/or the parameters of the perceived stimuli. This is facilitated by the use of supervised learning techniques. In this work we consider the problem of decoding a target variable with ordered values. This target reflects the use of a parametric experimental design in which a parameter of the stimulus is continuously modulated during the experiment. The decoding step is performed by a Ridge regression. The evaluation metric, given the ordinal nature of the target is performed by a ranking metric. On a visual paradigm consisting of random dot kinematograms with 7 coherence levels recorded on 36 subjects we show that one can predict the perceptual thresholds of the subjects from the MEG data. Results are obtained in sensor space and for source estimates in relevant regions of interests (MT, pSTS, mSTS, VLPFC).}},
     keywords = {functional brain imaging, statistical learning, ordinal regression, magnetoencephalography},
     pdf = {http://hal.archives-ouvertes.fr/hal-01032909/PDF/PID3197363.pdf},
-}
-
-@unpublished{pedregosa-etal:14,
-    url = {http://hal.inria.fr/hal-00952554},
-    title = {{Data-driven HRF estimation for encoding and decoding models}},
-    author = {Pedregosa, Fabian and Eickenberg, Michael and Ciuciu, Philippe and Thirion, Bertrand and Gramfort, Alexandre},
-    abstract = {{Despite the common usage of a canonical, data-independent, hemodynamic response function (HRF), it is known that the shape of the HRF varies across brain regions and subjects. This suggests that a data-driven estimation of this function could lead to more statistical power when modeling BOLD fMRI data. However, unconstrained estimation of the HRF can yield highly unstable results when the number of free parameters is large. We develop a method for the joint estimation of activation and HRF using a rank constraint causing the estimated HRF to be equal across events/conditions, yet permitting it to be different across voxels. Model estimation leads to an optimization problem that we propose to solve with an efficient quasi-Newton method exploiting fast gradient computations. This model, called GLM with Rank-1 constraint (R1-GLM), can be extended to the setting of GLM with separate designs which has been shown to improve decoding accuracy in brain activity decoding experiments. We compare 10 different HRF modeling methods in terms of encoding and decoding score in two different datasets. Our results show that the R1-GLM model significantly outperforms competing methods in both encoding and decoding settings, positioning it as an attractive method both from the points of view of accuracy and computational efficiency.}},
-    keywords = {Functional MRI (fMRI); Hemodynamic Response Function (HRF); Machine Learning; Optimization; BOLD; Finite Impulse Response (FIR); Decoding; Encoding},
-    language = {Anglais},
-    affiliation = {PARIETAL - INRIA Saclay - Ile de France , SIERRA - INRIA Paris - Rocquencourt , Laboratoire de Neuroimagerie Assist{\'e}e par Ordinateur - LNAO , Service NEUROSPIN - NEUROSPIN , Laboratoire Traitement et Communication de l'Information [Paris] - LTCI},
-    year = {2014},
-    month = Feb,
-    pdf = {http://hal.inria.fr/hal-00952554/PDF/paper.pdf},
 }
 
 @inproceedings{dohmatob:hal-00991743,
