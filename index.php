@@ -253,6 +253,11 @@ including the EEG/MEG forward problem. OpenMEEG implements the Symmetric BEM whi
     </div>
     <div class="news_content">
     <ul>
+        <li> July. 2015: I'll be one the keynote speakers at <a href="https://sites.google.com/site/stamlins2015/home">machine learning in neuroscience workshop</a> at ICML in Lille</li>
+        <li> July. 2015: I'll give an oral presentation on my work G. Peyré and M. Cuturi at <a href="http://ipmi2015.cs.ucl.ac.uk">IPMI conf.</a> in Scotland</li>
+        <li> June. 2015: My work with D. Engemann and D. Strohmeier will be presented in oral presentations at <a href="https://sites.google.com/site/prni2015/">PRNI conference</a> in Stanford</li>
+        <li> June. 2015: My work with my student Michael Eickenberg will be presented in an oral presentation at <a href="http://ohbm.loni.usc.edu">OHBM conference</a> in Hawai</li>
+        <li> May. 2015: Talk at Chalmers University "The impact of tools and modeling assumptions on neuroscience"</li>
         <li> Apr. 2015: I'll be giving a tutorial on <a href="http://scikit-learn.org/stable/" title="scikit-learn: machine learning in Python">Scikit-Learn</a> for medical imaging at <a href="http://biomedicalimaging.org/2015/" title="ISBI 2015">IEEE ISBI conference</a> in NYC.</li>
         <li>5 Dec. 2014: I'll be talking at Gipsa Lab at <a href="http://www.gipsa-lab.grenoble-inp.fr/projet/erc_chess/mmday.html" title="erc_chess">Workshop on challenges in multimodality</a> about the problems and the benefits of combining MEG and EEG for source analysis.</li>
         <li>5 and 12 Nov. 2014: <a href="http://martinos.org/mne/stable/index.html" title="MNE Home">MNE</a> training session at Telecom ParisTech.</li>
