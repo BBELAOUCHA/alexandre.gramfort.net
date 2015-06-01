@@ -152,6 +152,12 @@ h3 a:hover {
     border-left: 1px solid #999;
 }
 
+.part_section {
+    font-weight: bold;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
 tr {
     margin: 15px 0px;
     padding-left: 10px;
